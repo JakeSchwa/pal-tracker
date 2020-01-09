@@ -1,5 +1,7 @@
 package io.pivotal.pal.tracker;
 
+import org.springframework.jdbc.core.JdbcTemplate;
+
 import java.util.List;
 
 public interface TimeEntryRepository {

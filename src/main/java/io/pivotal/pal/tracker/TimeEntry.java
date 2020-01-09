@@ -31,7 +31,10 @@ public class TimeEntry {
 
     private int hours;
 
+    private int lastID = 0;
+
     public TimeEntry(long projectId, long userId, LocalDate date, int hours) {
+
 
         this.projectId = projectId;
         this.userId = userId;
@@ -48,6 +51,7 @@ public class TimeEntry {
     }
 
     public TimeEntry() {
+
 
     }
 
